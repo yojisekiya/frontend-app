@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+name = "frontend-app"
+client_id = "96e05560ae574bad8a61ab9a9e585e74"
+application_url = "https://antiques-fairly-limited-widely.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://antiques-fairly-limited-widely.trycloudflare.com/auth/callback",
+  "https://antiques-fairly-limited-widely.trycloudflare.com/auth/shopify/callback",
+  "https://antiques-fairly-limited-widely.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "plus-partner-enablement-camp.myshopify.com"
