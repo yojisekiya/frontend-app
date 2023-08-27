@@ -2,7 +2,7 @@
 
 name = "frontend-app"
 client_id = "96e05560ae574bad8a61ab9a9e585e74"
-application_url = "https://seeks-wordpress-fallen-nickname.trycloudflare.com"
+application_url = "https://joy-andorra-vertical-pest.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://seeks-wordpress-fallen-nickname.trycloudflare.com/auth/callback",
-  "https://seeks-wordpress-fallen-nickname.trycloudflare.com/auth/shopify/callback",
-  "https://seeks-wordpress-fallen-nickname.trycloudflare.com/api/auth/callback"
+  "https://joy-andorra-vertical-pest.trycloudflare.com/auth/callback",
+  "https://joy-andorra-vertical-pest.trycloudflare.com/auth/shopify/callback",
+  "https://joy-andorra-vertical-pest.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
@@ -23,5 +23,4 @@ api_version = "2023-07"
 embedded = false
 
 [build]
-automatically_update_urls_on_dev = true
 dev_store_url = "plus-partner-enablement-camp.myshopify.com"
